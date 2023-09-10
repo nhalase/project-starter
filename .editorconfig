@@ -1,0 +1,56 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_size = 4
+indent_style = space
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.{json,json5}]
+indent_size = 2
+
+[*.{yml,yaml}]
+indent_size = 2
+
+[*.md]
+indent_size = 4
+indent_style = space
+trim_trailing_whitespace = false
+
+[*.{htm,html,js,ts,tsx,css,sass,scss,less,svg,vue}]
+indent_size = 2
+
+[*.{xml,config}]
+indent_size = 2
+
+[*.{cmd,bat}]
+end_of_line = crlf
+
+[*.sh]
+end_of_line = lf
+indent_size = 2
+
+[*.csv]
+end_of_line = crlf
+
+[{Makefile,go.mod,go.sum,*.go,.gitmodules}]
+indent_style = tab
+indent_size = 4
+
+[*.rs]
+max_line_length = 100
+
+[Dockerfile]
+indent_size = 4
+
+[*.py]
+indent_style = space
+indent_size = 4
+
+[*.gemspec]
+indent_size = 2
+
+[*.rb]
+indent_size = 2
